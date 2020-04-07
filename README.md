@@ -1,8 +1,4 @@
-# Widget Client App
-
-WidgetClient is a simple application, consuming the [WidgetApi](https://showoff-rails-react-production.herokuapp.com), built with Ruby on Rails.
-
-![enter image description here](https://onlinepaytax.s3.ap-south-1.amazonaws.com/login_logout.gif)
+# Show off Widget Client App
 
 ## Functionality
 
