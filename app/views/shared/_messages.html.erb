@@ -1,0 +1,24 @@
+<% if flash.count > 0 %>
+  <% if flash[:success] %>
+    <div class="alert alert-success">
+      <a class="close" data-dismiss="alert">×</a>
+      <%= raw flash[:success] %>
+    </div>
+  <% end %>
+
+  <% if flash[:error] %>
+    <div class="alert alert-danger">
+      <a class="close" data-dismiss="alert">×</a>
+      <%= raw flash[:error] %>
+    </div>
+  <% end %>
+
+  <% if flash[:alert] %>
+    <div class="alert alert-warning">
+      <a class="close" data-dismiss="alert">×</a>
+      <%=raw flash[:alert] %>
+    </div>
+  <% end %>
+  
+<% end %>
+<% flash.discard %>
